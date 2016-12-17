@@ -1,0 +1,22 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wqq126/ReactDemo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wqq126/ReactDemo/issues"
+  },
+  "homepage": "https://github.com/wqq126/ReactDemo#readme",
+  "devDependencies": {
+    "webpack": "^1.14.0"
+  }
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="../build/react.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../build/react-dom.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../build/browser.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="example"></div>
+		<script type="text/babel">
+			var arr = [
+				<h1>Hello,World</h1>,
+				<h2>React is awesome</h2>
+			]
+			var names = ['Alice','Emily','Kate'];
+			ReactDOM.render(
+				<div>
+					{arr}
+				</div>,
+				document.querySelector('#example')
+			);
+		</script>
+	</body>
+</html>
